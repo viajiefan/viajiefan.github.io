@@ -1,5 +1,33 @@
-Head:
-  name: "Jie"
-Body:
-  x: "x"
-  y: 123
+Top:
+  JaName: "曽 傑"
+  EngName: "Jie Zeng"
+  Explain: "所属: 成蹊大学　理工学部　特別共同研究員"
+
+# year: 
+# month: 
+# title: 
+# booktitle: 
+# author: []
+
+International:
+  -
+    year: 2022
+    month: 10
+    title: Semantic Content Prediction for Generating Interviewing Dialogues to Elicit Users' Food Preferences
+    booktitle: Proceedings of the 2nd Workshop on When Creative AI Meets Conversational AI, in the 29th International Conference on Computational Linguistics (COLING2022), pp. 45-58, 2022.
+    author: ["Jie Zeng", "Tatsuya Sakato", "Yukiko I. Nakano"]
+  - 
+    year: 2020
+    month: 03
+    title: Exploiting a Large-scale Knowledge Graph for Question Generation in Food Preference Interview Systems
+    booktitle: Proceedings of the 25th International Conference on Intelligent User Interfaces Companion (IUI2020), pp. 53-54, 2020.
+    author: ["Jie Zeng", "Yukiko I. Nakano"]
+  - 
+    year: 2018
+    month: 10
+    title: Eliciting User Food Preferences in terms of Taste and Texture in Spoken Dialogue Systems
+    booktitle: Proceedings of the 3rd International Workshop on Multisensory Approaches to Human-Food Interaction, in the 20th ACM International Conference on Multimodal Interaction (ICMI2018), No. 6, pp. 1-5, 2018.
+    author: ["Jie Zeng", "Yukiko I. Nakano", "Takeshi Morita", "Ichiro Kobayashi", "Takahira Yamaguchi"]
+
+IntroduceAuthor:
+  Ja: "2019年　成蹊大学大学院 理工学研究科　修士課程修了．2023年　同大学院博士課程修了．現在，成蹊大学理工学部　特別共同研究員．対話システム，自然言語処理の研究に従事．人工知能学会，言語処理学会各会員．"

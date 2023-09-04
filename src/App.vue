@@ -1,22 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App" v-bind:descObj="this.descObj" />
-  <p> {{ descObj }} </p>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <TopComponent v-bind:descObj="this.descObj"/>
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App" v-bind:descObj="this.descObj" /> -->
+  <!-- <p> {{ descObj }} </p> -->
+
+  <h2>Publication List</h2>
+  <h2>International Conferences</h2>
+  <ShowList v-bind:publist="this.descObj.International"/>
+
+  <h2>Domestic Conferences</h2>
+  
+  <h2>著者紹介文</h2>
+  <p> {{descObj.IntroduceAuthor.Ja}} </p>
 
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-// import loadYamlFile from './utils'
+import TopComponent from './components/TopComponent.vue'
+import ShowList from './components/ShowList.vue'
 
-// import jsYaml from 'js-yaml';    // npm install js-yaml --save
-// import jsYaml from 'yaml-loader';
 import yamlFile from './assets/desc.yaml'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TopComponent,
+    ShowList
+    // HelloWorld
   },
   data() {
     console.log('call data()')
@@ -25,8 +35,9 @@ export default {
     };
   },  
   
-  mounted() {
-    console.log('call mounted.')
+  // Lifecycle https://vuejs.org/guide/essentials/lifecycle.html#lifecycle-diagram
+  beforeMount() {
+    console.log('call beforeMounted.')
     try {
       // this.descObj = jsYaml.load(yamlFile);
       this.descObj = yamlFile
@@ -46,7 +57,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 60px;
 }
