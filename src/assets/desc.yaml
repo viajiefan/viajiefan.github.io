@@ -11,11 +11,23 @@ Top:
 
 International:
   -
+    year: 2023
+    month: 9
+    title: Question Generation to Elicit Users' Food Preferences by Considering the Semantic Content
+    booktitle: Proceedings of the 24th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDial2023).
+    author: ["Jie Zeng", "Yukiko I. Nakano", "Tatsuya Sakato"]
+  -
     year: 2022
     month: 10
     title: Semantic Content Prediction for Generating Interviewing Dialogues to Elicit Users' Food Preferences
     booktitle: Proceedings of the 2nd Workshop on When Creative AI Meets Conversational AI, in the 29th International Conference on Computational Linguistics (COLING2022), pp. 45-58, 2022.
     author: ["Jie Zeng", "Tatsuya Sakato", "Yukiko I. Nakano"]
+  -
+    year: 2020
+    month: 10
+    title: Estimating the Intensity of Facial Expressions Accompanying Feedback Responses in Multiparty Video-Mediated Communication
+    booktitle: Proceedings of the 22nd International Conference on Multimodal Interaction (ICMI2020).
+    author: ["Ryosuke Ueno", "Yukiko I. Nakano", "Jie Zeng", "Fumio Nihei"]
   - 
     year: 2020
     month: 03
