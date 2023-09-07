@@ -1,5 +1,5 @@
 Top:
-  JaName: "曽傑"
+  JaName: "曽 傑"
   Yomi: "そう じぇ"
   EngName: "Jie Zeng"
   Mail: "job_dot_jiezeng_at_gmail.com"
@@ -53,6 +53,6 @@ International:
     author: ["Jie Zeng", "Yukiko I. Nakano", "Takeshi Morita", "Ichiro Kobayashi", "Takahira Yamaguchi"]
     link: https://dl.acm.org/doi/10.1145/3279954.3279959
     pdf: https://dl.acm.org/doi/pdf/10.1145/3279954.3279959
-    
+
 IntroduceAuthor:
-  Ja: "2019年　成蹊大学大学院 理工学研究科　修士課程修了．2023年　同大学院博士課程修了．現在，成蹊大学理工学部　特別共同研究員．対話システム，自然言語処理の研究に従事．人工知能学会，言語処理学会各会員．"
+  Ja: "2019年 成蹊大学大学院 理工学研究科 修士課程修了．2023年 同大学院博士課程修了．現在，成蹊大学理工学部 特別共同研究員．対話システム，自然言語処理の研究に従事．博士（理工学）．人工知能学会，言語処理学会各会員．"
