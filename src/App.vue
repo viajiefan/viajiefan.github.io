@@ -6,10 +6,10 @@
 
   <h2>Publication List</h2>
   <h2>International Conferences</h2>
-  <ShowList v-bind:publist="this.descObj.International"/>
+  <ShowList v-bind:publist="this.descObj.International" v-bind:top="this.descObj.Top"/>
 
   <h2>Domestic Conferences</h2>
-  
+
   <h2>著者紹介文</h2>
   <p> {{descObj.IntroduceAuthor.Ja}} </p>
 
@@ -29,7 +29,7 @@ export default {
     // HelloWorld
   },
   data() {
-    console.log('call data()')
+    // console.log('call data()')
     return {
       descObj: {}, // descObjを初期化
     };
@@ -41,8 +41,7 @@ export default {
     try {
       // this.descObj = jsYaml.load(yamlFile);
       this.descObj = yamlFile
-      console.log('mnt %o', this.descObj)
-      console.log(this.descObj.Head)
+      console.log('mnt %o', this.descObj) // debug check desc.yaml
     } catch (e) {
       console.log(e)
     }

@@ -1,6 +1,8 @@
 <template>
     <div class="top">
         <h1> {{descObj.Top.JaName}} ({{descObj.Top.EngName}})</h1>
+        <p> ({{descObj.Top.Yomi}}) </p>
+        <p> <i class="fa-regular fa-envelope"></i> {{descObj.Top.Mail}}</p>
         <p> {{descObj.Top.Explain}} </p>        
     </div>
 </template>
