@@ -6,6 +6,8 @@
                 <a id="icon_link" v-if="pub.pdf" v-bind:href="pub.pdf" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-file-pdf"></i></a>
                 <a id="icon_link" v-if="pub.link" v-bind:href="pub.link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i></a>
                 <br>
+                <span id="eng-title" v-if="pub.engtitle">( {{pub.engtitle}} )<br></span>
+                
 
                 <!-- Print Author names -->
                 <!-- <span>Authors: {{ pub.author.join(', ') }}</span> <br> -->
@@ -17,7 +19,7 @@
                     <span v-if="index != pub.author.length-1">, </span>
                 </template><br>
 
-                <span>In <i>{{ pub.booktitle }}</i></span>
+                <span><i>{{ pub.booktitle }}</i></span>
                 <span id="awardtag" v-if="pub.awardtag">{{pub.awardtag}}</span>
                 
             </li>
@@ -40,7 +42,9 @@ export default {
 <style scoped>
 li {
   /* border: 1px dotted #000; */
-  margin: 10px 0px;
+  /* margin: 10px 0px; */
+  margin-top: 20px;
+  
 }
 #myname {
   text-decoration: underline;

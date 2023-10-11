@@ -5,10 +5,12 @@
   <!-- <p> {{ descObj }} </p> -->
 
   <h2>Publication List</h2>
-  <h2>International Conferences</h2>
+  <h3>Journal Papers</h3>
+  <ShowList v-bind:publist="this.descObj.JournalPapers" v-bind:top="this.descObj.Top"/>
+  <h3>International Conferences</h3>
   <ShowList v-bind:publist="this.descObj.International" v-bind:top="this.descObj.Top"/>
 
-  <h2>Domestic Conferences</h2>
+  <h3>Domestic Conferences</h3>
 
   <h2>著者紹介文</h2>
   <p> {{descObj.IntroduceAuthor.Ja}} </p>
