@@ -18,11 +18,22 @@ Top:
 
 JournalPapers:
   -
+    year: 2024
+    month: 5
+    title: 意味内容に基づくインタビュアー応答生成モデルの作成と評価 ―対話による食に関するユーザ嗜好の獲得―
+    engtitle: "Implementation and Evaluation of Interviewer's Response Generation Model Considering Semantic Content: Eliciting User's Food Preferences through Conversations"
+    booktitle: 人工知能学会論文誌, 39 巻, 3号, pp. IDS6-A_1-15, 2024.
+    author: [曽 傑, 中野 有紀子, 坂戸 達陽]
+    link: https://www.jstage.jst.go.jp/article/tjsai/39/3/39_39-3_IDS6-A/_article/-char/ja/
+    pdf: https://www.jstage.jst.go.jp/article/tjsai/39/3/39_39-3_IDS6-A/_pdf/-char/ja
+    awardtag:
+
+  -
     year: 2021
     month: 6
     title: 知識と話題の埋め込み表現に基づく質問生成と対話システムへの適用 ―料理嗜好インタビューシステムに向けて―
     engtitle: "Question Generation in Dialogue Systems based on Embedding Representation of Knowledge and Topics: Towards Food Preference Interview Systems"
-    booktitle: 自然言語処理, 28 巻, 2号, p. 598-631, 2021.
+    booktitle: 自然言語処理, 28 巻, 2号, pp. 598-631, 2021.
     author: [曽 傑, 中野 有紀子]
     link: https://doi.org/10.5715/jnlp.28.598
     pdf: https://www.jstage.jst.go.jp/article/jnlp/28/2/28_598/_pdf/-char/ja
