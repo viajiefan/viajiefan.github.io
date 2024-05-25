@@ -11,6 +11,7 @@
   <ShowList v-bind:publist="this.descObj.International" v-bind:top="this.descObj.Top"/>
 
   <h3>Domestic Conferences</h3>
+  <ShowList v-bind:publist="this.descObj.Domestic" v-bind:top="this.descObj.Top"/>
 
   <h2>著者紹介文</h2>
   <p> {{descObj.IntroduceAuthor.Ja}} </p>
