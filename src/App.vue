@@ -4,6 +4,9 @@
   <!-- <HelloWorld msg="Welcome to Your Vue.js App" v-bind:descObj="this.descObj" /> -->
   <!-- <p> {{ descObj }} </p> -->
 
+  
+  <ExperienceComponent />
+
   <h2>Publication List</h2>
   <h3>Journal Papers</h3>
   <ShowList v-bind:publist="this.descObj.JournalPapers" v-bind:top="this.descObj.Top"/>
@@ -20,6 +23,7 @@
 
 <script>
 import TopComponent from './components/TopComponent.vue'
+import ExperienceComponent from './components/ExperienceComponent.vue'
 import ShowList from './components/ShowList.vue'
 
 import yamlFile from './assets/desc.yaml'
@@ -28,6 +32,7 @@ export default {
   name: 'App',
   components: {
     TopComponent,
+    ExperienceComponent,
     ShowList
     // HelloWorld
   },
