@@ -44,7 +44,7 @@ International:
     year: 2023
     month: 9
     title: Question Generation to Elicit Users' Food Preferences by Considering the Semantic Content
-    booktitle: In Proceedings of the 24th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDial2023), pp. 190-196, 2023.
+    booktitle: In Proceedings of the 24th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDial2023), pp. 190-196, Prague, Czechia, 2023.
     author: ["Jie Zeng", "Yukiko I. Nakano", "Tatsuya Sakato"]
     link: https://aclanthology.org/2023.sigdial-1.18/
     pdf: https://aclanthology.org/2023.sigdial-1.18.pdf
@@ -53,7 +53,7 @@ International:
     year: 2022
     month: 10
     title: Semantic Content Prediction for Generating Interviewing Dialogues to Elicit Users' Food Preferences
-    booktitle: In Proceedings of the 2nd Workshop on When Creative AI Meets Conversational AI, in the 29th International Conference on Computational Linguistics (COLING2022), pp. 45-58, 2022.
+    booktitle: In Proceedings of the 2nd Workshop on When Creative AI Meets Conversational AI, in the 29th International Conference on Computational Linguistics (COLING2022), pp. 45-58, Gyeongju, Republic of Korea, 2022.
     author: ["Jie Zeng", "Tatsuya Sakato", "Yukiko I. Nakano"]
     link: https://aclanthology.org/2022.cai-1.7/
     pdf: https://aclanthology.org/2022.cai-1.7.pdf
@@ -61,7 +61,7 @@ International:
     year: 2020
     month: 10
     title: Estimating the Intensity of Facial Expressions Accompanying Feedback Responses in Multiparty Video-Mediated Communication
-    booktitle: In Proceedings of the 22nd International Conference on Multimodal Interaction (ICMI2020).
+    booktitle: In Proceedings of the 22nd International Conference on Multimodal Interaction (ICMI2020), pp. 142-152, 2020
     author: ["Ryosuke Ueno", "Yukiko I. Nakano", "Jie Zeng", "Fumio Nihei"]
     link: https://dl.acm.org/doi/abs/10.1145/3382507.3418878
     pdf: https://dl.acm.org/doi/pdf/10.1145/3382507.3418878
@@ -77,7 +77,7 @@ International:
     year: 2018
     month: 10
     title: Eliciting User Food Preferences in terms of Taste and Texture in Spoken Dialogue Systems
-    booktitle: In Proceedings of the 3rd International Workshop on Multisensory Approaches to Human-Food Interaction, in the 20th ACM International Conference on Multimodal Interaction (ICMI2018), No. 6, pp. 1-5, 2018.
+    booktitle: In Proceedings of the 3rd International Workshop on Multisensory Approaches to Human-Food Interaction, in the 20th ACM International Conference on Multimodal Interaction (ICMI2018), No. 6, pp. 1-5, Boulder, USA, 2018.
     author: ["Jie Zeng", "Yukiko I. Nakano", "Takeshi Morita", "Ichiro Kobayashi", "Takahira Yamaguchi"]
     link: https://dl.acm.org/doi/10.1145/3279954.3279959
     pdf: https://dl.acm.org/doi/pdf/10.1145/3279954.3279959
@@ -176,7 +176,7 @@ Domestic:
     month: 6
     title: 食味表現に着目した料理嗜好対話システム
     engtitle: "A Dialogue System for Collecting User's Preference about Foods by focusing on Taste and Texture"
-    booktitle: 人工知能学会第32回全国大会 (JSAI2018), pp. 4G104-4G104, 2018
+    booktitle: 人工知能学会第32回全国大会 (JSAI2018), pp. 4G104-4G104, 鹿児島, 2018
     author: [曽 傑, 高瀬 裕, 中野 有紀子]
     link: https://www.jstage.jst.go.jp/article/pjsai/JSAI2018/0/JSAI2018_4G104/_article/-char/ja/
     pdf: https://www.jstage.jst.go.jp/article/pjsai/JSAI2018/0/JSAI2018_4G104/_pdf/-char/ja
@@ -198,7 +198,7 @@ Domestic:
     month: 5
     title: 対話システムによるユーザの料理評価収集
     engtitle: "A Dialogue System that Acquires Knowledge about Objects' Functions and Properties"
-    booktitle: 人工知能学会第31回全国大会 (JSAI2018), pp, 3B2-2, 愛知, 2017
+    booktitle: 人工知能学会第31回全国大会 (JSAI2018), pp, 3B2-2, 名古屋, 2017
     author: [曽 傑, 高瀬 裕, 中野 有紀子]
     link: https://www.jstage.jst.go.jp/article/pjsai/JSAI2017/0/JSAI2017_3B22/_article/-char/ja/
     pdf: https://www.jstage.jst.go.jp/article/pjsai/JSAI2017/0/JSAI2017_3B22/_pdf/-char/ja

@@ -6,10 +6,10 @@
         
     </div>
 
-    <h2>Activity</h2>
+    <h2>Activities</h2>
     <div class="top">
-        <li>2024.03 - present GENIAC LLM開発プロジェクト
-        <p class="desc">Phase1 Team Zooメンバー<a href="https://weblab.t.u-tokyo.ac.jp/geniac_llm/teams">(URL)</a></p>
+        <li>2024.03 - present GENIAC 松尾研 LLM開発プロジェクト
+        <p class="desc">Phase1 Team Zooメンバー<a href="https://weblab.t.u-tokyo.ac.jp/geniac_llm/teams" target="_blank" rel="noopener noreferrer">(URL)</a></p>
         </li>
     </div>
 
@@ -21,7 +21,7 @@
 }
 .desc {
     margin-top: 0px;
-    margin-left: 20px;
+    margin-left: 22px;
 }
 
 </style>
