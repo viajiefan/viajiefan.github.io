@@ -41,6 +41,15 @@ JournalPapers:
 
 International:
   -
+    year: 2024
+    month: 9
+    title: Modifying Gesture Style with Impression Words
+    booktitle: In Proceedings of the 24th ACM International Conference on Intelligent Virtual Agents (IVA2024), pp. , Glasgow, UK, 2024.
+    author: ["Jie Zeng", "Yoshiki Takahashi", "Yukiko Nakano", "Tatsuya Sakato", "Hannes Högni Vilhjálmsson"]
+    link: https://doi.org/10.1145/3652988.3673931
+    pdf: 
+    awardtag:
+  -
     year: 2023
     month: 9
     title: Question Generation to Elicit Users' Food Preferences by Considering the Semantic Content
