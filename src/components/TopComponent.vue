@@ -4,7 +4,7 @@
         <p> ({{descObj.Top.Yomi}}) </p>
         <p> <i class="fa-regular fa-envelope"></i> {{descObj.Top.Mail1}}</p>
         <p> <i class="fa-regular fa-envelope"></i> {{descObj.Top.Mail2}}</p>
-        <p> {{descObj.Top.Explain}} </p>  
+        <p> <i class="fa-solid fa-building-columns"></i> {{descObj.Top.Explain}} </p>  
         <p> <a v-bind:href="descObj.Top.GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a></p>
     </div>
 </template>

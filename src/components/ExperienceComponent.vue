@@ -2,8 +2,8 @@
     <h2>Experience</h2>
 
     <div class="top">
-        <li>2023.05 - present 成蹊大学 理工学部 特別共同研究員 (知的インタフェース研究室) (Seikei University, Intelligent User Interface Lab.)
-        <p class="desc"><a href="http://iui.ci.seikei.ac.jp/" target="_blank" rel="noopener noreferrer">HP</a></p>
+        <li>2023.05 - present 成蹊大学 理工学部 特別共同研究員 (知的インタフェース研究室) (Researcher in Intelligent User Interface laboratory at Seikei University)
+        <p class="desc"><a href="http://iui.ci.seikei.ac.jp/" target="_blank" rel="noopener noreferrer">Lab. HP</a></p>
         </li>
         
     </div>
