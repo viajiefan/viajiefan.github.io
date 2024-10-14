@@ -12,7 +12,7 @@
     <div class="top">
         <li>2024.08 - present 松尾研 大規模データ収集プロジェクト (Matsuo Lab., Large-scale data collection project for LLM development)</li>
         <li>2024.03 - 2024.08 GENIAC 松尾研 LLM開発プロジェクト (GENIAC, Matsuo Lab., LLM development project)
-        <p class="desc">Phase1 Team Zooメンバー<a href="https://weblab.t.u-tokyo.ac.jp/geniac_llm/teams" target="_blank" rel="noopener noreferrer">(URL)</a> & Phase2メンバー</p>
+        <p class="desc">Phase1 Team Zooメンバー<a href="https://weblab.t.u-tokyo.ac.jp/geniac_llm/teams" target="_blank" rel="noopener noreferrer">(URL)</a> & Phase2メンバー <a href="https://huggingface.co/weblab-GENIAC/Tanuki-8B-dpo-v1.0" target="_blank" rel="noopener noreferrer">(公開モデル)</a> </p>
         </li>
     </div>
 

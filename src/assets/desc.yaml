@@ -14,6 +14,7 @@ Top:
   #   author: []
   #   link:
   #   pdf:
+  #   add:
   #   awardtag:
 
 JournalPapers:
@@ -48,6 +49,7 @@ International:
     author: ["Jie Zeng", "Yoshiki Takahashi", "Yukiko Nakano", "Tatsuya Sakato", "Hannes Högni Vilhjálmsson"]
     link: https://doi.org/10.1145/3652988.3673931
     pdf: 
+    add: '<span><a href="https://github.com/IUI-Lab/Gesture-Style-Impression" target="_blank" rel="noopener noreferrer">GitHub</a></span>'
     awardtag:
   -
     year: 2023

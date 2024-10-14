@@ -2,13 +2,13 @@
     <div>
         <ul>
             <li v-for="(pub, index) in publist" :key="index">
+                <!-- Print Title & Links -->
                 <span id="title">{{pub.year}}-{{pub.month}} "{{ pub.title }}"</span>
                 <a id="icon_link" v-if="pub.pdf" v-bind:href="pub.pdf" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-file-pdf"></i></a>
                 <a id="icon_link" v-if="pub.link" v-bind:href="pub.link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i></a>
                 <br>
                 <span id="eng-title" v-if="pub.engtitle">( {{pub.engtitle}} )<br></span>
                 
-
                 <!-- Print Author names -->
                 <!-- <span>Authors: {{ pub.author.join(', ') }}</span> <br> -->
                 <span>Authors: </span>
@@ -19,8 +19,12 @@
                     <span v-if="index != pub.author.length-1">, </span>
                 </template><br>
 
+                <!-- Print Booktitle -->
                 <span><i>{{ pub.booktitle }}</i></span>
-                <span id="awardtag" v-if="pub.awardtag">{{pub.awardtag}}</span>
+                <span id="awardtag" v-if="pub.awardtag">{{pub.awardtag}}</span><br>
+
+                <!-- Additional info -->
+                <span v-html="pub.add" v-if="pub.add"></span>
                 
             </li>
             <br>
