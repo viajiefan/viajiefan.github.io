@@ -45,10 +45,10 @@ International:
     year: 2024
     month: 9
     title: Modifying Gesture Style with Impression Words
-    booktitle: In Proceedings of the 24th ACM International Conference on Intelligent Virtual Agents (IVA2024), pp. , Glasgow, UK, 2024.
+    booktitle: In Proceedings of the 24th ACM International Conference on Intelligent Virtual Agents (IVA2024), No.15, pp. 1-9, Glasgow, UK, 2024.
     author: ["Jie Zeng", "Yoshiki Takahashi", "Yukiko Nakano", "Tatsuya Sakato", "Hannes Högni Vilhjálmsson"]
     link: https://doi.org/10.1145/3652988.3673931
-    pdf: 
+    pdf: https://dl.acm.org/doi/pdf/10.1145/3652988.3673931
     add: '<span><a href="https://github.com/IUI-Lab/Gesture-Style-Impression" target="_blank" rel="noopener noreferrer">GitHub</a></span>'
     awardtag:
   -
