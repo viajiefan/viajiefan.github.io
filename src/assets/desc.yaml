@@ -97,6 +97,39 @@ Domestic:
   -
     year: 2024
     month: 5
+    title: カウンセリングコーパスを利用した動機づけ面接のための大規模言語モデルの調整
+    engtitle: "Fine-tuning Large Language Models for Motivational Interviewing using Counseling Corpus"
+    booktitle: 人工知能学会第39回全国大会 (JSAI2025), 大阪, 2025.
+    author: [森田 翔真, 曽 傑, 坂戸 達陽, 中野 有紀子]
+    link: 
+    pdf: 
+    awardtag:
+
+  -
+    year: 2024
+    month: 5
+    title: アバタージェスチャのマルチモーダルスタイル変換によるユーザ印象への影響
+    engtitle: "Multimodal Style Transfer of Avatar Gestures and Its Impact on User Impressions"
+    booktitle: 人工知能学会第39回全国大会 (JSAI2025), 大阪, 2025.
+    author: [髙橋 芳樹, 曽 傑, 坂戸 達陽, 中野 有紀子]
+    link: 
+    pdf: 
+    awardtag:
+
+  -
+    year: 2024
+    month: 5
+    title: マルチモーダル情報を用いたNeurodiverseなグループ会話における文脈逸脱行動の検出
+    engtitle: "Detecting Contextually Inappropriate Communicative Behaviors in Neurodiverse Group Conversations using Multimodal Information"
+    booktitle: 人工知能学会第39回全国大会 (JSAI2025), 大阪, 2025.
+    author: [戸田 陽春, 坂戸 達陽, 曽 傑, 二瓶 芙巳雄, 高山 千尋, 石井 亮, 辻井 正次, 中野 有紀子]
+    link: 
+    pdf: 
+    awardtag:
+
+  -
+    year: 2024
+    month: 5
     title: 食に関する嗜好獲得に向けた意味内容に基づくインタビュアー応答生成モデルの評価
     engtitle: "Evaluation of an Interviewer Response-Generation Model for Eliciting User-Food Preferences Considering Semantic Content"
     booktitle: 人工知能学会第38回全国大会 (JSAI2024), 浜松, 2024.
