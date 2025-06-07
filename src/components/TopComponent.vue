@@ -5,7 +5,11 @@
         <p> <i class="fa-regular fa-envelope"></i> {{descObj.Top.Mail1}}</p>
         <p> <i class="fa-regular fa-envelope"></i> {{descObj.Top.Mail2}}</p>
         <p> <i class="fa-solid fa-building-columns"></i> {{descObj.Top.Explain}} </p>  
-        <p> <a v-bind:href="descObj.Top.GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a></p>
+        <p> 
+          <a v-bind:href="descObj.Top.GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+          &nbsp;&nbsp;
+          <a v-bind:href="descObj.Top.GoogleScholar" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-google-scholar"></i> Google Scholar</a>
+        </p>
     </div>
 </template>
 
