@@ -10,9 +10,13 @@
   <h2>Publication List</h2>
   <h3>Journal Papers</h3>
   <ShowList v-bind:publist="this.descObj.JournalPapers" v-bind:top="this.descObj.Top"/>
+
   <h3>International Conferences</h3>
   <ShowList v-bind:publist="this.descObj.International" v-bind:top="this.descObj.Top"/>
-
+  
+  <h3>Preprints</h3>
+  <ShowList v-bind:publist="this.descObj.Preprints" v-bind:top="this.descObj.Top"/>
+  
   <h3>Domestic Conferences</h3>
   <ShowList v-bind:publist="this.descObj.Domestic" v-bind:top="this.descObj.Top"/>
 

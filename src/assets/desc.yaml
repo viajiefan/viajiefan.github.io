@@ -43,6 +43,15 @@ JournalPapers:
 
 International:
   -
+    year: 2025
+    month: 10
+    title: Identifying Participant Roles in Online Group Discussions
+    booktitle: 
+    author: ["Kazuki Kodaira", "Kazuki Nakaya", "Jie Zeng", "Hiyori Toda", "Fumio Nihei", "Ryo Ishii", "Yukiko I. Nakano"]
+    link:
+    pdf:
+    
+  -
     year: 2024
     month: 9
     title: Modifying Gesture Style with Impression Words
@@ -93,6 +102,18 @@ International:
     author: ["Jie Zeng", "Yukiko I. Nakano", "Takeshi Morita", "Ichiro Kobayashi", "Takahira Yamaguchi"]
     link: https://dl.acm.org/doi/10.1145/3279954.3279959
     pdf: https://dl.acm.org/doi/pdf/10.1145/3279954.3279959
+
+
+Preprints:
+  -
+    year: 2025
+    month: 8
+    title: Schema-Guided Response Generation using Multi-Frame Dialogue State for Motivational Interviewing Systems
+    booktitle: arXiv
+    author: ["Jie Zeng", "Yukiko I. Nakano"]
+    link: https://arxiv.org/abs/2508.20635
+    pdf: https://arxiv.org/pdf/2508.20635
+
 
 Domestic:
   -
