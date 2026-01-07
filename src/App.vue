@@ -20,6 +20,9 @@
   <h3>Domestic Conferences</h3>
   <ShowList v-bind:publist="this.descObj.Domestic" v-bind:top="this.descObj.Top"/>
 
+  <TalksComponent />
+
+
   <h2>著者紹介文</h2>
   <p> {{descObj.IntroduceAuthor.Ja}} </p>
 
@@ -31,13 +34,15 @@ import ExperienceComponent from './components/ExperienceComponent.vue'
 import ShowList from './components/ShowList.vue'
 
 import yamlFile from './assets/desc.yaml'
+import TalksComponent from './components/TalksComponent.vue';
 
 export default {
   name: 'App',
   components: {
     TopComponent,
     ExperienceComponent,
-    ShowList
+    ShowList,
+    TalksComponent,
     // HelloWorld
   },
   data() {

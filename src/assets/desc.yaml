@@ -46,10 +46,10 @@ International:
     year: 2025
     month: 10
     title: Identifying Participant Roles in Online Group Discussions
-    booktitle: 
+    booktitle: In Proceedings of the 27th International Conference on Multimodal Interaction (ICMI2025), pp. 53-57, Canberra, Australia, 2025.
     author: ["Kazuki Kodaira", "Kazuki Nakaya", "Jie Zeng", "Hiyori Toda", "Fumio Nihei", "Ryo Ishii", "Yukiko I. Nakano"]
-    link:
-    pdf:
+    link: https://dl.acm.org/doi/10.1145/3747327.3763042
+    pdf: https://dl.acm.org/doi/pdf/10.1145/3747327.3763042
     
   -
     year: 2024
