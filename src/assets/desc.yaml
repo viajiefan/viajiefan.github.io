@@ -117,7 +117,18 @@ Preprints:
 
 Domestic:
   -
-    year: 2024
+    year: 2026
+    month: 3
+    title: LLMによる合成データ生成を用いた個人情報分類の高精度化
+    engtitle: 
+    booktitle: 言語処理学会第32回年次大会 (NLP2026), 栃木, 2026.
+    author: [江國 翔太, 曽 傑, 小橋 洋平, 小島 武, 岩澤 有祐, 松尾 豊]
+    link: 
+    pdf: 
+    awardtag: 
+    
+  -
+    year: 2025
     month: 5
     title: カウンセリングコーパスを利用した動機づけ面接のための大規模言語モデルの調整
     engtitle: "Fine-tuning Large Language Models for Motivational Interviewing using Counseling Corpus"
@@ -128,7 +139,7 @@ Domestic:
     awardtag: 
 
   -
-    year: 2024
+    year: 2025
     month: 5
     title: アバタージェスチャのマルチモーダルスタイル変換によるユーザ印象への影響
     engtitle: "Multimodal Style Transfer of Avatar Gestures and Its Impact on User Impressions"
@@ -139,7 +150,7 @@ Domestic:
     awardtag:
 
   -
-    year: 2024
+    year: 2025
     month: 5
     title: マルチモーダル情報を用いたNeurodiverseなグループ会話における文脈逸脱行動の検出
     engtitle: "Detecting Contextually Inappropriate Communicative Behaviors in Neurodiverse Group Conversations using Multimodal Information"
