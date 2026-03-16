@@ -5,6 +5,7 @@ Top:
   Mail1: "job (_DOT_) jiezeng (_AT_) gmail.com"
   Mail2: "job (_DOT_) jiezeng (_AT_) outlook.com"
   Explain: "成蹊大学 理工学部 特別共同研究員 / Researcher at Seikei Univ."
+  LinkedIn: "https://www.linkedin.com/in/jie-zeng-97417b269/"
   GitHub: "https://github.com/viajiefan"
   GoogleScholar: "https://scholar.google.com/citations?user=ionv9b0AAAAJ"
   # -
@@ -109,7 +110,7 @@ Preprints:
     year: 2025
     month: 8
     title: Schema-Guided Response Generation using Multi-Frame Dialogue State for Motivational Interviewing Systems
-    booktitle: arXiv
+    booktitle: arXiv:2508.20635
     author: ["Jie Zeng", "Yukiko I. Nakano"]
     link: https://arxiv.org/abs/2508.20635
     pdf: https://arxiv.org/pdf/2508.20635
@@ -121,10 +122,10 @@ Domestic:
     month: 3
     title: LLMによる合成データ生成を用いた個人情報分類の高精度化
     engtitle: 
-    booktitle: 言語処理学会第32回年次大会 (NLP2026), 栃木, 2026.
+    booktitle: 言語処理学会第32回年次大会 (NLP2026), pp. B8-17, 栃木, 2026.
     author: [江國 翔太, 曽 傑, 小橋 洋平, 小島 武, 岩澤 有祐, 松尾 豊]
     link: 
-    pdf: 
+    pdf: https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B8-17.pdf
     awardtag: 
     
   -
