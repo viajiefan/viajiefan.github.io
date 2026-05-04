@@ -44,6 +44,28 @@ JournalPapers:
 
 International:
   -
+    year: 2026
+    month: 7
+    title: Schema-Guided Response Generation using Multi-Frame Dialogue State for Motivational Interviewing Systems
+    booktitle: "In Findings of the Association for Computational Linguistics: ACL2026, pages XX, San Diego, US, 2025."
+    author: ["Jie Zeng", "Yukiko I. Nakano"]
+    link: 
+    pdf:
+    add:
+    awardtag:
+
+  -
+    year: 2025
+    month: 10
+    title: Schema-Guided Response Generation using Multi-Frame Dialogue State for Motivational Interviewing Systems
+    booktitle: In Proceedings of the 4th Symbiotic Society with Avatars (SSA) workshop, in the 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2025), in Hangzhou, China, 2025.
+    author: ["Jie Zeng", "Yukiko I. Nakano"]
+    link: https://sites.google.com/view/ssa-hri/2025-schedule
+    pdf:
+    add: '<span>Workshop presentation only (no paper submitted)</span>'
+    awardtag:
+
+  -
     year: 2025
     month: 10
     title: Identifying Participant Roles in Online Group Discussions
@@ -119,9 +141,31 @@ Preprints:
 Domestic:
   -
     year: 2026
+    month: 6
+    title: 要約発話予測機能を有する動機づけ面接対話システムの構築と評価
+    engtitle: "A Motivational Interviewing Dialogue System with Summary Utterance Prediction: Development and Evaluation"
+    booktitle: 人工知能学会第40回全国大会 (JSAI2026), 群馬, 2026.
+    author: [土屋 洋輝, 曽 傑, 二瓶 芙巳雄, 中野 有紀子]
+    link: 
+    pdf: 
+    awardtag: 
+  
+  -
+    year: 2026
+    month: 6
+    title: マルチモーダルRAGを用いた動機づけ面接対話システム
+    engtitle: "A Motivational Interviewing Dialogue System using Multimodal RAG"
+    booktitle: 人工知能学会第40回全国大会 (JSAI2026), 群馬, 2026.
+    author: [工藤 和真, 曽 傑, 二瓶 芙巳雄, 中野 有紀子]
+    link: 
+    pdf: 
+    awardtag: 
+  
+  -
+    year: 2026
     month: 3
     title: LLMによる合成データ生成を用いた個人情報分類の高精度化
-    engtitle: 
+    engtitle: "Improving PII Classification Accuracy via LLM-based Synthetic Data Generation (Translated)"
     booktitle: 言語処理学会第32回年次大会 (NLP2026), pp. B8-17, 栃木, 2026.
     author: [江國 翔太, 曽 傑, 小橋 洋平, 小島 武, 岩澤 有祐, 松尾 豊]
     link: 
