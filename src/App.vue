@@ -4,27 +4,28 @@
   <!-- <HelloWorld msg="Welcome to Your Vue.js App" v-bind:descObj="this.descObj" /> -->
   <!-- <p> {{ descObj }} </p> -->
 
-  
-  <ExperienceComponent />
+  <div class="content-wrapper">
+    <ExperienceComponent />
 
-  <h2>Publication List</h2>
-  <h3>Journal Papers</h3>
-  <ShowList v-bind:publist="this.descObj.JournalPapers" v-bind:top="this.descObj.Top"/>
+    <h2>Publication List</h2>
+    <h3>Journal Papers</h3>
+    <ShowList v-bind:publist="this.descObj.JournalPapers" v-bind:top="this.descObj.Top"/>
 
-  <h3>International Conferences</h3>
-  <ShowList v-bind:publist="this.descObj.International" v-bind:top="this.descObj.Top"/>
-  
-  <h3>Preprints</h3>
-  <ShowList v-bind:publist="this.descObj.Preprints" v-bind:top="this.descObj.Top"/>
-  
-  <h3>Domestic Conferences</h3>
-  <ShowList v-bind:publist="this.descObj.Domestic" v-bind:top="this.descObj.Top"/>
+    <h3>International Conferences</h3>
+    <ShowList v-bind:publist="this.descObj.International" v-bind:top="this.descObj.Top"/>
 
-  <TalksComponent />
+    <h3>Preprints</h3>
+    <ShowList v-bind:publist="this.descObj.Preprints" v-bind:top="this.descObj.Top"/>
+
+    <h3>Domestic Conferences</h3>
+    <ShowList v-bind:publist="this.descObj.Domestic" v-bind:top="this.descObj.Top"/>
+
+    <TalksComponent />
 
 
-  <h2>著者紹介文</h2>
-  <p> {{descObj.IntroduceAuthor.Ja}} </p>
+    <h2>著者紹介文</h2>
+    <p> {{descObj.IntroduceAuthor.Ja}} </p>
+  </div>
 
 </template>
 
@@ -75,5 +76,13 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.content-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-align: left;
 }
 </style>
