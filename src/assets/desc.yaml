@@ -47,11 +47,11 @@ International:
     year: 2026
     month: 7
     title: Schema-Guided Response Generation using Multi-Frame Dialogue State for Motivational Interviewing Systems
-    booktitle: "In Findings of the Association for Computational Linguistics: ACL2026, pages XX, San Diego, US, 2026."
+    booktitle: "In Findings of the Association for Computational Linguistics: ACL2026, pages 41493–41524, San Diego, San Diego, California, United States. 2026."
     author: ["Jie Zeng", "Yukiko I. Nakano"]
-    link: 
-    pdf:
-    add:
+    link: https://doi.org/10.18653/v1/2026.findings-acl.2063
+    pdf: https://aclanthology.org/2026.findings-acl.2063.pdf
+    add: '<span><a href="https://github.com/IUI-Lab/schema-guided-mi" target="_blank" rel="noopener noreferrer">GitHub</a></span>'
     awardtag:
 
   -
