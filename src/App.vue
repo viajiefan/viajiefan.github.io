@@ -22,10 +22,13 @@
 
     <TalksComponent />
 
+    <EducationComponent v-bind:descObj="this.descObj" />
 
     <h2>著者紹介文</h2>
     <p> {{descObj.IntroduceAuthor.Ja}} </p>
-  </div>
+
+
+  </div> <!-- content-wrapper -->
 
 </template>
 
@@ -36,6 +39,7 @@ import ShowList from './components/ShowList.vue'
 
 import yamlFile from './assets/desc.yaml'
 import TalksComponent from './components/TalksComponent.vue';
+import EducationComponent from './components/EducationComponent.vue';
 
 export default {
   name: 'App',
@@ -44,6 +48,7 @@ export default {
     ExperienceComponent,
     ShowList,
     TalksComponent,
+    EducationComponent,
     // HelloWorld
   },
   data() {

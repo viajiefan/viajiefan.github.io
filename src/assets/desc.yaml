@@ -328,3 +328,25 @@ Domestic:
 
 IntroduceAuthor:
   Ja: "2019年 成蹊大学大学院 理工学研究科 修士課程修了．2023年 同大学院博士課程修了．現在，成蹊大学理工学部 特別共同研究員．対話システム，自然言語処理の研究に従事．博士（理工学）．人工知能学会，言語処理学会各会員．"
+
+Education:
+  Doctor:
+    end_year: 2023
+    end_month: 03
+    start_year: 2019
+    start_month: 04
+    title: "成蹊大学大学院 理工学研究科(博士後期課程) 理工学専攻 情報科学コース"
+    engtitle: "Ph.D. in Science and Engineering, Seikei University"
+    thesis_title: "対話システムにおける知識グラフと発話意味内容予測に基づく質問生成: 食に関する嗜好獲得インタビュー対話システムに向けて"
+    thesis_engtitle: "Question Generation based on Knowledge Graph and Utterance Semantic Content Prediction in Dialogue Systems: Towards Interviewing Dialogue Systems for Modeling Users' Food Preferences"
+    thesis_link: https://doi.org/10.15018/00001379
+
+  Master:
+    end_year: 2019
+    end_month: 03
+    start_year: 2017
+    start_month: 04
+    title: "成蹊大学大学院 理工学研究科(博士後期課程) 理工学専攻 情報科学コース"
+    engtitle: "Master of Science and Engineering, Seikei University"
+
+  
