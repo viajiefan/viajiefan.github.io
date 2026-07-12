@@ -7,7 +7,7 @@
             <p class="desc"> ( {{descObj.Education.Doctor.engtitle}} ) </p>
             <p class="desc"> 知的インタフェース研究室 Advisor: <a href="https://iui.ci.seikei.ac.jp/yukiko-i-nakano/" target="_blank" rel="noopener noreferrer">Prof. Yukiko I. Nakano</a></p>
             <p class="desc"> 学位論文 "{{descObj.Education.Doctor.thesis_title}}" <a id="icon_link" v-bind:href="descObj.Education.Doctor.thesis_link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i></a></p>
-            <p class="desc"> ( {{descObj.Education.Doctor.thesis_engtitle}} )</p>
+            <p class="desc"> PhD Thesis ( {{descObj.Education.Doctor.thesis_engtitle}} )</p>
         </li>
 
         <li> {{descObj.Education.Master.start_year}}.{{descObj.Education.Master.start_month}} - {{descObj.Education.Master.end_year}}.{{descObj.Education.Master.end_month}} {{descObj.Education.Master.title}}

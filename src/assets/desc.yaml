@@ -19,6 +19,10 @@ Top:
   #   add:
   #   awardtag:
 
+ResearchTopics:
+  point1_eng: "<strong>Natural Language Processing (NLP)</strong>: Response generation and dialogue management for building intelligent conversational systems."
+  point2_eng: "<strong>Multimodal Machine Learning & Human-Computer Interaction (HCI)</strong>: Designing interactive systems with animated agents that collaborate with humans using multimodal signals (e.g., language, speech, and non-verbal information)."
+
 JournalPapers:
   -
     year: 2024

@@ -1,6 +1,16 @@
 <template>
-    <h2>Experience</h2>
+    <h2>Research Topics</h2>
+    <div class="top">
+    <ul>
+        <li><span v-html="descObj.ResearchTopics.point1_eng"></span>
+        </li>
+        <br>
+        <li><span v-html="descObj.ResearchTopics.point2_eng"></span>
+        </li>
+    </ul>
+    </div>
 
+    <h2>Experience</h2>
     <div class="top">
     <ul>
         <li>2023.05 - present 成蹊大学 理工学部 特別共同研究員 (知的インタフェース研究室) (Researcher in Intelligent User Interface laboratory at Seikei University)
@@ -23,6 +33,15 @@
     </div>
 
 </template>
+
+<script>
+export default {
+  name: 'ExperienceComponent',
+  props: {
+    descObj: {},
+  }
+}
+</script>
 
 <style scoped>
 .top {

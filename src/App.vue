@@ -5,7 +5,7 @@
   <!-- <p> {{ descObj }} </p> -->
 
   <div class="content-wrapper">
-    <ExperienceComponent />
+    <ExperienceComponent v-bind:descObj="this.descObj" />
 
     <h2>Publication List</h2>
     <h3>Journal Papers</h3>
@@ -24,7 +24,7 @@
 
     <EducationComponent v-bind:descObj="this.descObj" />
 
-    <h2>著者紹介文</h2>
+    <h3>著者紹介文</h3>
     <p> {{descObj.IntroduceAuthor.Ja}} </p>
 
 
@@ -76,7 +76,8 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
@@ -89,5 +90,16 @@ export default {
   padding: 0 20px;
   box-sizing: border-box;
   text-align: left;
+}
+
+h2 {
+  border-left: 6px solid #007a19;
+  padding-left: 12px;
+}
+
+h3 {
+  display: inline-block;
+  border-bottom: 2px solid #225d2e;
+  padding-bottom: 4px;
 }
 </style>
