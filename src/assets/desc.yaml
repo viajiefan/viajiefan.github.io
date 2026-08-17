@@ -47,6 +47,25 @@ JournalPapers:
     awardtag:
 
 International:
+  # -
+  #   year: 2026
+  #   month: 10
+  #   title: Modeling Participant Behavior Across Utterances and Silent Intervals for Engagement Estimation of Individuals with ASD
+  #   booktitle: In Proceedings of the 28th International Conference on Multimodal Interaction (ICMI2026), pp. XX, Napoli, Italy, 2026.
+  #   author: ["Hiyori Toda*", "Jie Zeng*", "Fumio Nihei", "Chihiro Takayama", "Ryo Ishii", "Masatsugu Tsujii", "Yukiko I. Nakano"]
+  #   link: https://doi.org/10.1145/3776591.3832510
+  #   pdf: 
+  # add: '<span>* Both authors contributed equally to this research.</span>'
+
+  # -
+  #   year: 2026
+  #   month: 10
+  #   title: 
+  #   booktitle: In Proceedings of the International Workshop on Collective States in Multimodal Interaction, in the 28th ACM International Conference on Multimodal Interaction (ICMI2026), pp. XX, Napoli, Italy, 2026.
+  #   author: ["Kazuki Nakaya", "Jie Zeng", "Fumio Nihei", "Yukiko I. Nakano"]
+  #   link: https://doi.org/
+  #   pdf: 
+
   -
     year: 2026
     month: 7
@@ -132,6 +151,15 @@ International:
 
 
 Preprints:
+  - 
+    year: 2026
+    month: 8
+    title: Bootstrapping Niche Multilingual Code Translation via Reinforcement Learning with Execution-Based Verifiable Supervision
+    booktitle: arXiv:2608.13854
+    author: ["Kouki Yuki", "Jie Zeng", "Kyoko Ogawa", "Ryunosuke Ikeda", "Yohei Kobash", "Takeshi Kojima", "Ikuya Yamada", "Yusuke Iwasawa", "Yutaka Matsuo"]
+    link: https://arxiv.org/abs/2608.13854
+    pdf: https://arxiv.org/pdf/2608.13854
+
   -
     year: 2025
     month: 8
