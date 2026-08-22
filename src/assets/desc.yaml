@@ -47,24 +47,33 @@ JournalPapers:
     awardtag:
 
 International:
-  # -
-  #   year: 2026
-  #   month: 10
-  #   title: Modeling Participant Behavior Across Utterances and Silent Intervals for Engagement Estimation of Individuals with ASD
-  #   booktitle: In Proceedings of the 28th International Conference on Multimodal Interaction (ICMI2026), pp. XX, Napoli, Italy, 2026.
-  #   author: ["Hiyori Toda*", "Jie Zeng*", "Fumio Nihei", "Chihiro Takayama", "Ryo Ishii", "Masatsugu Tsujii", "Yukiko I. Nakano"]
-  #   link: https://doi.org/10.1145/3776591.3832510
-  #   pdf: 
-  # add: '<span>* Both authors contributed equally to this research.</span>'
+  -
+    year: 2026
+    month: 10
+    title: Training Lightweight PII Detectors via Rubric-Guided Contrastive Data Synthesis
+    booktitle: In Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026), Industry Track, pp. XX, Budapest, Hungary, 2026.
+    author: ["Shota Ekuni", "Jie Zeng", "Yohei Kobashi", "Takeshi Kojima", "Yusuke Iwasawa", "Yutaka Matsuo"]
+    link: 
+    pdf: 
 
-  # -
-  #   year: 2026
-  #   month: 10
-  #   title: 
-  #   booktitle: In Proceedings of the International Workshop on Collective States in Multimodal Interaction, in the 28th ACM International Conference on Multimodal Interaction (ICMI2026), pp. XX, Napoli, Italy, 2026.
-  #   author: ["Kazuki Nakaya", "Jie Zeng", "Fumio Nihei", "Yukiko I. Nakano"]
-  #   link: https://doi.org/
-  #   pdf: 
+  -
+    year: 2026
+    month: 10
+    title: Modeling Participant Behavior Across Utterances and Silent Intervals for Engagement Estimation of Individuals with ASD
+    booktitle: In Proceedings of the 28th International Conference on Multimodal Interaction (ICMI2026), pp. XX, Napoli, Italy, 2026.
+    author: ["Hiyori Toda*", "Jie Zeng*", "Fumio Nihei", "Chihiro Takayama", "Ryo Ishii", "Masatsugu Tsujii", "Yukiko I. Nakano"]
+    link: https://doi.org/10.1145/3776591.3832510
+    pdf: 
+    add: '<span>* Both authors contributed equally to this research.</span>'
+
+  -
+    year: 2026
+    month: 10
+    title: Analyzing Speaker-Role Representations in LLMs for Group Discussions
+    booktitle: In Proceedings of the International Workshop on Collective States in Multimodal Interaction, in the 28th ACM International Conference on Multimodal Interaction (ICMI2026), pp. XX, Napoli, Italy, 2026.
+    author: ["Kazuki Nakaya", "Jie Zeng", "Fumio Nihei", "Yukiko I. Nakano"]
+    link: 
+    pdf: 
 
   -
     year: 2026

@@ -14,8 +14,8 @@
                     <!-- <span>Authors: {{ pub.author.join(', ') }}</span> <br> -->
                     <span>Authors: </span>
                     <template v-for="(author_el, index) in pub.author" :key="index">
-                        <!-- if myname(compair in no space string), underline -->
-                        <span v-if="author_el.replace(/\s+/g, '') === top.JaName.replace(/\s+/g,'') || author_el.replace(/\s+/g,'') === top.EngName.replace(/\s+/g,'')" id="myname"> {{author_el}} </span>
+                        <!-- if myname(compair in no space string, ignoring trailing marks like *), underline -->
+                        <span v-if="isMyName(author_el)" id="myname"> {{author_el}} </span>
                         <span v-else> {{author_el}} </span>
                         <span v-if="index != pub.author.length-1">, </span>
                     </template><br>
@@ -74,6 +74,20 @@ export default {
         chunks.push(this.publist.slice(i, i + PAGE_SIZE));
       }
       return chunks.length ? chunks : [[]];
+    },
+  },
+  methods: {
+    // Remove spaces and trailing footnote marks (*, †, ‡, digits, etc.)
+    normalizeName(name) {
+      return String(name ?? '')
+        .replace(/\s+/g, '')
+        .replace(/[*＊†‡§¶#\d]+$/, '');
+    },
+    isMyName(author_el) {
+      const target = this.normalizeName(author_el);
+      if (!target) return false;
+      return target === this.normalizeName(this.top?.JaName)
+        || target === this.normalizeName(this.top?.EngName);
     },
   },
 }
