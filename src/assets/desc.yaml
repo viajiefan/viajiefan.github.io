@@ -8,6 +8,7 @@ Top:
   LinkedIn: "https://www.linkedin.com/in/jie-zeng-97417b269/"
   GitHub: "https://github.com/viajiefan"
   GoogleScholar: "https://scholar.google.com/citations?user=ionv9b0AAAAJ"
+  ORCID: "https://orcid.org/0009-0000-5303-3461"
   # -
   #   year: 
   #   month: 
@@ -51,7 +52,7 @@ International:
     year: 2026
     month: 10
     title: Training Lightweight PII Detectors via Rubric-Guided Contrastive Data Synthesis
-    booktitle: In Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026), Industry Track, pp. XX, Budapest, Hungary, 2026.
+    booktitle: In Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP2026), Industry Track, pp. XX, Budapest, Hungary, 2026.
     author: ["Shota Ekuni", "Jie Zeng", "Yohei Kobashi", "Takeshi Kojima", "Yusuke Iwasawa", "Yutaka Matsuo"]
     link: 
     pdf: 
