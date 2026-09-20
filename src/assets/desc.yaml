@@ -54,8 +54,8 @@ International:
     title: Training Lightweight PII Detectors via Rubric-Guided Contrastive Data Synthesis
     booktitle: In Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP2026), Industry Track, pp. XX, Budapest, Hungary, 2026.
     author: ["Shota Ekuni", "Jie Zeng", "Yohei Kobashi", "Takeshi Kojima", "Yusuke Iwasawa", "Yutaka Matsuo"]
-    link: 
-    pdf: 
+    # link: TODO 
+    # pdf: TODO
 
   -
     year: 2026
@@ -64,7 +64,7 @@ International:
     booktitle: In Proceedings of the 28th International Conference on Multimodal Interaction (ICMI2026), pp. XX, Napoli, Italy, 2026.
     author: ["Hiyori Toda*", "Jie Zeng*", "Fumio Nihei", "Chihiro Takayama", "Ryo Ishii", "Masatsugu Tsujii", "Yukiko I. Nakano"]
     link: https://doi.org/10.1145/3776591.3832510
-    pdf: 
+    # pdf: TODO
     add: '<span>* Both authors contributed equally to this research.</span>'
 
   -
@@ -73,8 +73,18 @@ International:
     title: Analyzing Speaker-Role Representations in LLMs for Group Discussions
     booktitle: In Proceedings of the International Workshop on Collective States in Multimodal Interaction, in the 28th ACM International Conference on Multimodal Interaction (ICMI2026), pp. XX, Napoli, Italy, 2026.
     author: ["Kazuki Nakaya", "Jie Zeng", "Fumio Nihei", "Yukiko I. Nakano"]
-    link: 
-    pdf: 
+    # link: TODO
+    # pdf: TODO
+
+  -
+    year: 2026
+    month: 8
+    title: A Conversational Agent for Motivational Interviewing with Summary Prediction
+    booktitle: In Proceedings of the 35th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN2026), Fukuoka, Japan, 2026.
+    author: ["Hiroki Tsuchiya", "Fumio Nihei", "Jie Zeng", "Yukiko I. Nakano"]
+    # link: TODO
+    # pdf: TODO
+    # add:
 
   -
     year: 2026
